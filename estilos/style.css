@@ -2,6 +2,7 @@ body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
+  font-size: 20px;
 }
 
 .cabecalho {
@@ -44,12 +45,17 @@ h2 {
 
 .card img {
   width: 100%;
+  max-width: 200px; 
   height: auto;
   border-radius: 8px;
 }
 
 .card p {
   margin-bottom: 10px;
+}
+
+.card p strong {
+  font-size: 1.5em; 
 }
 
 .apostilas {
